@@ -1,0 +1,46 @@
+# ========================================
+# KiCad temporary / backup files
+# ========================================
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+#auto_saved_files#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+
+# KiCad local user/project state
+*.kicad_prl
+.history/
+
+# Exported/intermediate netlist/router files
+*.net
+*.dsn
+*.ses
+
+# ========================================
+# macOS
+# ========================================
+.DS_Store
+.localized
+__MACOSX/
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent

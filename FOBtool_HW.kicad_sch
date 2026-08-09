@@ -1,0 +1,116 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4178b7d0-cf29-4cf2-b214-acbbbd97d338")
+	(paper "A4")
+	(lib_symbols)
+	(text "POWER-SHEET CRITICAL NOTES\nBATTERY: Use only a protected 1S Li-ion battery pack. Verify connector keying and polarity before assembly or power application.\nREV-A LIMITATION: The 2-wire battery pack provides no thermistor connection. TS is fixed-biased and does not provide actual battery-temperature monitoring.\n\nFIRMWARE: At every charger initialization, program BQ25895 REG04 ICHG to 1.024 A and verify the applicable input-current-limit policy.\n\nCAPACITORS: MLCC values shown are nominal. Use X5R or X7R dielectric at the specified voltage rating and verify effective capacitance at the operating DC bias for every selected MPN.\nPOWER SEQUENCE: Assert BOOST_5V_EN before USB_HOST_VBUS_EN. Disable USB_HOST_VBUS_EN before disabling BOOST_5V_EN.\nGROUNDING: CHG_PGND is a local high-current return, not a separate board ground plane. Connect it to the common GND at the charger PowerPAD/current-loop region through the designated net tie.\nNOISE CONTROL: Keep charger, buck-boost and boost switch nodes and current loops away from GNSS, UWB, RF matching networks, antennas and reference clocks.\nFIRST POWER-UP: Use a current-limited bench supply. Check resistance to GND and verify VSYS, +3V3, +5V_SYS and VBUS_HOST individually before connecting final loads or the battery."
+		(exclude_from_sim no)
+		(at 184.15 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82d66e8c-2625-446c-af75-5f862b205a3e")
+	)
+	(sheet
+		(at 19.05 19.05)
+		(size 12.7 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "457e6303-9754-4ed8-9885-e330b7172f7d")
+		(property "Sheetname" "POWER"
+			(at 19.05 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 19.05 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 67.31)
+		(size 12.7 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "911e9b50-e380-47e6-b4a6-ef60861d1588")
+		(property "Sheetname" "MAIN_CONTROLLER"
+			(at 20.32 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAIN_CONTROLLER_sch.kicad_sch"
+			(at 20.32 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
