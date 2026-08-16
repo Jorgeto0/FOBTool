@@ -16,7 +16,53 @@
 		(uuid "82d66e8c-2625-446c-af75-5f862b205a3e")
 	)
 	(sheet
-		(at 19.05 19.05)
+		(at 20.32 96.52)
+		(size 12.7 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "27b7c62f-0663-47bb-bbed-fbdc5a64ed05")
+		(property "Sheetname" "RP2350_COPROCESSOR"
+			(at 20.32 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RP2350_COPROCESSOR.kicad_sch"
+			(at 20.32 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 19.05)
 		(size 12.7 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32,7 +78,7 @@
 		)
 		(uuid "457e6303-9754-4ed8-9885-e330b7172f7d")
 		(property "Sheetname" "POWER"
-			(at 19.05 18.3384 0)
+			(at 20.32 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43,7 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 19.05 48.8446 0)
+			(at 20.32 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62,7 +108,53 @@
 		)
 	)
 	(sheet
-		(at 20.32 67.31)
+		(at 20.32 144.78)
+		(size 12.7 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7364cb57-4c2d-4f96-844a-9bdd5765ab23")
+		(property "Sheetname" "SUB_GHZ_RF"
+			(at 20.32 144.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SUB_GHZ_RF.kicad_sch"
+			(at 20.32 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 55.88)
 		(size 12.7 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -78,7 +170,7 @@
 		)
 		(uuid "911e9b50-e380-47e6-b4a6-ef60861d1588")
 		(property "Sheetname" "MAIN_CONTROLLER"
-			(at 20.32 66.5984 0)
+			(at 20.32 55.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -89,7 +181,7 @@
 			)
 		)
 		(property "Sheetfile" "MAIN_CONTROLLER_sch.kicad_sch"
-			(at 20.32 102.1846 0)
+			(at 20.32 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
