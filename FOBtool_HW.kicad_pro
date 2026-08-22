@@ -649,6 +649,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,7 +669,7 @@
         "uuid": "4178b7d0-cf29-4cf2-b214-acbbbd97d338"
       }
     ],
-    "used_designators": "#FLG1-2,T1-3,FL1-12,U1-10,U12,U14-15,U17-22,U27-31,FB1-6,C1-147,SW1-3,D1-3,Y1-4,#PWR1-184,J1-6,NT1,R1-76,L1-32,TP1-7",
+    "used_designators": "TP1-7,L1-39,BZ1,R1-138,M1,NT1,J1-13,FB1-8,SW1-5,SW8,C1-256,U1-10,U12,U14-15,U17-22,U27-48,Y1-5,Y7-10,#PWR1-332,D1-14,T1-3,FL1-12,Q1-3,#FLG1-12,AE1-3",
     "variants": []
   },
   "sheets": [
@@ -684,6 +692,18 @@
     [
       "7364cb57-4c2d-4f96-844a-9bdd5765ab23",
       "SUB_GHZ_RF"
+    ],
+    [
+      "333a93f3-47c5-4a5d-92b2-d571fa43e622",
+      "WIRED_IO"
+    ],
+    [
+      "cc7490bd-9d73-4af2-8376-d5d2330f1288",
+      "HMI"
+    ],
+    [
+      "e68072eb-1a73-49dc-9cee-ac0e0ab7a67a",
+      "POSITIONING"
     ]
   ],
   "text_variables": {},

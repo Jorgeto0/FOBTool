@@ -3423,10 +3423,6 @@
 		(uuid "fa88d168-a227-4dac-9c60-5788add5793e")
 	)
 	(no_connect
-		(at 157.48 87.63)
-		(uuid "0899e9ee-6259-4210-b2c6-16479afce01c")
-	)
-	(no_connect
 		(at 157.48 138.43)
 		(uuid "0be454fa-6a80-4855-b6c7-8e1f9c7540aa")
 	)
@@ -3437,10 +3433,6 @@
 	(no_connect
 		(at 157.48 69.85)
 		(uuid "56614571-dc8b-47c1-8e27-312b3212dab0")
-	)
-	(no_connect
-		(at 157.48 130.81)
-		(uuid "597a59b0-9c66-4120-b6d6-f09a4bc86cb9")
 	)
 	(no_connect
 		(at 157.48 90.17)
@@ -3457,10 +3449,6 @@
 	(no_connect
 		(at 157.48 125.73)
 		(uuid "bfed14ad-5460-4a45-a2cc-55064ef10635")
-	)
-	(no_connect
-		(at 157.48 133.35)
-		(uuid "c9988fe4-4609-46ce-8693-f56a08d90611")
 	)
 	(no_connect
 		(at 157.48 135.89)
@@ -3745,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "345a5e9c-00dd-4554-b788-e3812524abfd")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 163.83 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356a6f6f-edf7-41be-9c80-a3c3f834873a")
 	)
 	(wire
 		(pts
@@ -4045,6 +4043,16 @@
 			(type default)
 		)
 		(uuid "5e4d9a76-04ea-448a-b719-08111412b7cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 163.83 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602ee08d-03de-45a4-85f5-275aeb141ace")
 	)
 	(wire
 		(pts
@@ -4535,6 +4543,16 @@
 			(type default)
 		)
 		(uuid "a2de2650-98eb-4f9e-8398-5bb4266eec76")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a8a726-8d91-4255-a14d-d268cfa00cc2")
 	)
 	(wire
 		(pts
@@ -5389,6 +5407,17 @@
 		)
 		(uuid "0b3157f5-9912-4480-ba2d-2a36bcc87a2a")
 	)
+	(hierarchical_label "USBC_CC1_SENSE"
+		(shape input)
+		(at 163.83 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce4b7a4-aae6-4bb4-bca4-851a2b43ea02")
+	)
 	(hierarchical_label "CC1101_C_GDO0"
 		(shape input)
 		(at 163.83 77.47 0)
@@ -5455,7 +5484,7 @@
 		)
 		(uuid "62bce274-88f5-4e1f-ba19-7bc6fa11bd0d")
 	)
-	(hierarchical_label "LF_DEMOD"
+	(hierarchical_label "LF_SCIO"
 		(shape input)
 		(at 163.83 118.11 0)
 		(effects
@@ -5499,7 +5528,7 @@
 		)
 		(uuid "8ffed906-3e15-4fcf-898b-772b790b2801")
 	)
-	(hierarchical_label "LF_COIL_B"
+	(hierarchical_label "LF_COIL_SEL"
 		(shape output)
 		(at 163.83 115.57 0)
 		(effects
@@ -5510,7 +5539,7 @@
 		)
 		(uuid "96d76df9-169d-42a7-a69c-a58e10cd9f15")
 	)
-	(hierarchical_label "LF_COIL_A"
+	(hierarchical_label "LF_TXCT"
 		(shape output)
 		(at 163.83 113.03 0)
 		(effects
@@ -5565,6 +5594,17 @@
 		)
 		(uuid "c260c6a6-0b4e-4db8-a254-a0d46162181e")
 	)
+	(hierarchical_label "CAN_STBY"
+		(shape output)
+		(at 163.83 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d09ef8d8-542b-4b8f-8c66-c093de15e50a")
+	)
 	(hierarchical_label "CC1101_A_GDO0"
 		(shape input)
 		(at 163.83 72.39 0)
@@ -5586,6 +5626,17 @@
 			(justify left)
 		)
 		(uuid "eb0ad1bd-b794-4adc-b5b8-91318f1c512c")
+	)
+	(hierarchical_label "USBC_CC2_SENSE"
+		(shape input)
+		(at 163.83 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f732eccc-5eac-47df-b274-9f3daee56623")
 	)
 	(symbol
 		(lib_id "Device:C")
