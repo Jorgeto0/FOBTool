@@ -680,7 +680,7 @@
 				(alternate "SYNC" input line)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -698,7 +698,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -717,7 +717,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -754,7 +754,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -773,7 +773,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -792,7 +792,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -811,7 +811,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -848,7 +848,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -867,7 +867,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1210,7 +1210,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -54.61 90)
+				(at -1.27 -54.61 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1230,7 +1230,6 @@
 			(pin power_in line
 				(at 1.27 -54.61 90)
 				(length 2.54)
-				(hide yes)
 				(name "VSS"
 					(effects
 						(font
@@ -2812,7 +2811,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "SDO"

@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "5f0bd6bc-b8be-45e1-b361-4033862adae5")
 	(paper "A4")
+	(title_block
+		(title "ESP32-S3 Main Controller and System Interfaces")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1683,7 +1687,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 142.24 119.38)
+			(xy 114.3 118.11) (xy 116.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 154.94 119.38)
+			(xy 124.46 118.11) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 74.93) (xy 236.22 74.93)
+			(xy 247.65 74.93) (xy 256.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 74.93) (xy 223.52 74.93)
+			(xy 213.36 74.93) (xy 240.03 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 121.92) (xy 139.7 119.38)
+			(xy 114.3 120.65) (xy 114.3 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 87.63) (xy 182.88 87.63)
+			(xy 160.02 87.63) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2431,8 +2435,18 @@
 		)
 		(uuid "ff94698d-c251-4ee2-9b6a-ac60691f08f2")
 	)
-	(label "IO3"
-		(at 154.94 119.38 180)
+	(label "ESP_CONSOLE_TX_RAW"
+		(at 215.9 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a95ddee-ba30-49d4-a93b-ccfec59c68a1")
+	)
+	(label "ESP_GPIO3_STRAP_PD"
+		(at 147.32 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2441,8 +2455,8 @@
 		)
 		(uuid "6695a1cd-f027-4ad6-85c8-600d9a3e563f")
 	)
-	(label "IO3"
-		(at 163.83 87.63 0)
+	(label "ESP_GPIO3_STRAP_PD"
+		(at 160.02 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2709,7 @@
 	)
 	(hierarchical_label "CONSOLE_TX"
 		(shape output)
-		(at 236.22 74.93 0)
+		(at 256.54 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2920,7 +2934,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 119.38 90)
+		(at 120.65 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2930,8 +2944,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10c45ca5-9ce6-4f91-8425-b2cdf1037ba3")
-		(property "Reference" "R98"
-			(at 146.05 113.03 90)
+		(property "Reference" "R23"
+			(at 120.65 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2941,7 +2955,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 146.05 115.57 90)
+			(at 120.65 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2951,7 +2965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 121.158 90)
+			(at 120.65 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,7 +2976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 119.38 0)
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2973,7 +2987,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 119.38 0)
+			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2992,7 +3006,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "R98")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3010,7 +3024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1547b063-bbd5-4284-af30-0b7e43e03fcd")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 142.24 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3088,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5becc622-448c-4e50-8a7d-6ce1696b56c9")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 133.35 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3248,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3596,7 +3610,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 74.93 90)
+		(at 243.84 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3607,7 +3621,7 @@
 		(fields_autoplaced yes)
 		(uuid "95f1a336-8a4d-4820-94fd-19a29063acb2")
 		(property "Reference" "R22"
-			(at 227.33 68.58 90)
+			(at 243.84 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3617,7 +3631,7 @@
 			)
 		)
 		(property "Value" "499R"
-			(at 227.33 71.12 90)
+			(at 243.84 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3627,7 +3641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 76.708 90)
+			(at 243.84 76.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3638,7 +3652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 74.93 0)
+			(at 243.84 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +3663,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 74.93 0)
+			(at 243.84 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3764,7 +3778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4fb951c-363d-436b-81f8-2dd771c906d6")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 124.46 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3842,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3846,7 +3860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba2cd488-70dd-4b9a-944b-85980d29eb6f")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 254 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3924,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d290b6e3-bab9-48f2-9999-1cba45543524")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 227.33 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4084,7 @@
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/911e9b50-e380-47e6-b4a6-ef60861d1588"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 121.92 0)
+		(at 114.3 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4167,7 +4181,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5824e54-c531-4881-8072-82cd5be74b22")
 		(property "Reference" "#PWR0247"
-			(at 139.7 128.27 0)
+			(at 114.3 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,7 +4192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 127 0)
+			(at 114.3 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4188,7 +4202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 121.92 0)
+			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,7 +4213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 121.92 0)
+			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 121.92 0)
+			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
