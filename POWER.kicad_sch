@@ -14119,7 +14119,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 35.56 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -17900,7 +17900,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 38.1 168.91 0)
 			(hide yes)
 			(show_name no)

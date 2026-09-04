@@ -6434,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 106.68 95.25)
+			(xy 95.25 95.25) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6564,7 +6564,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.17) (xy 129.54 90.17)
+			(xy 109.22 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +6614,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 161.29 114.3)
+			(xy 189.23 115.57) (xy 161.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6871,16 +6871,6 @@
 			(type default)
 		)
 		(uuid "2b4bb37e-d527-4651-9449-6a70065f2be1")
-	)
-	(wire
-		(pts
-			(xy 83.82 168.91) (xy 85.09 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b4eb088-7b26-4cf6-91ef-b6aec8c285f4")
 	)
 	(wire
 		(pts
@@ -7324,7 +7314,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 100.33 95.25)
+			(xy 95.25 90.17) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7374,7 +7364,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 110.49) (xy 189.23 114.3)
+			(xy 189.23 110.49) (xy 189.23 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8434,7 +8424,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 124.46 97.79)
+			(xy 119.38 96.52) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8814,7 +8804,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 129.54 95.25)
+			(xy 124.46 96.52) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9144,7 +9134,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 90.17) (xy 106.68 90.17)
+			(xy 95.25 90.17) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9454,7 +9444,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 96.52) (xy 124.46 96.52)
+			(xy 124.46 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9471,6 +9461,16 @@
 			(type default)
 		)
 		(uuid "eda3abe4-a1cc-4545-9a7a-4d523d2f4315")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee25af3d-fbd7-4fb1-ac66-4db8d6a87072")
 	)
 	(wire
 		(pts
@@ -9783,7 +9783,7 @@
 		(uuid "474befae-44ee-4f13-a9cd-b0e2bec4703d")
 	)
 	(label "RTC_OSCO"
-		(at 176.53 114.3 0)
+		(at 176.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9793,7 +9793,7 @@
 		(uuid "4b8f6f0a-781d-469e-a744-6620a3866e2d")
 	)
 	(label "BUZZER_DRV"
-		(at 115.57 90.17 0)
+		(at 110.49 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9933,7 +9933,7 @@
 		(uuid "a0892353-710e-4958-991c-6674bfca9244")
 	)
 	(label "WS2812_DATA_5V"
-		(at 83.82 168.91 180)
+		(at 85.09 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10243,7 +10243,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 106.68 95.25 0)
+		(at 101.6 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10689,7 +10689,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 132.08 92.71 0)
+		(at 127 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10700,7 +10700,7 @@
 		(fields_autoplaced yes)
 		(uuid "07ef8b92-607e-4c37-ae3b-12867c06413d")
 		(property "Reference" "BZ1"
-			(at 135.89 91.4399 0)
+			(at 130.81 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10711,7 +10711,7 @@
 			)
 		)
 		(property "Value" "AST1109MLTRQ"
-			(at 135.89 93.9799 0)
+			(at 130.81 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10722,7 +10722,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_Mallory_AST1109MLTRQ"
-			(at 131.445 90.17 90)
+			(at 126.365 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10733,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mallory-sonalert.com/specifications/AST1109MLTRQ.pdf"
-			(at 131.445 90.17 90)
+			(at 126.365 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10744,7 +10744,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10755,7 +10755,7 @@
 			)
 		)
 		(property "DISTRIBUTOR_LINK" "https://www.mouser.com/ProductDetail/Mallory-Sonalert/AST1109MLTRQ?qs=GpRChIzryBM5c7g4uet5pQ%3D%3D"
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10766,7 +10766,7 @@
 			)
 		)
 		(property "MPN" "AST1109MLTRQ"
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,7 +10777,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10788,7 +10788,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10799,7 +10799,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10810,7 +10810,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10821,7 +10821,7 @@
 			)
 		)
 		(property "Notes" "N/A"
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10832,7 +10832,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Mallory Sonalert"
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10843,7 +10843,7 @@
 			)
 		)
 		(property "TUNING_ALTERNATIVES" ""
-			(at 132.08 92.71 0)
+			(at 127 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17336,7 +17336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 97.79 0)
+		(at 119.38 97.79 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17348,7 +17348,7 @@
 		(fields_autoplaced yes)
 		(uuid "6af86d1e-d5f3-4c8c-b563-eba3a3e3bc9d")
 		(property "Reference" "#PWR0243"
-			(at 124.46 104.14 0)
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17359,7 +17359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 102.87 0)
+			(at 119.38 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17369,7 +17369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 97.79 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17380,7 +17380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 97.79 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17391,7 +17391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 97.79 0)
+			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27221,7 +27221,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 90.17 270)
+		(at 105.41 90.17 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -27233,7 +27233,7 @@
 		(fields_autoplaced yes)
 		(uuid "d626862e-a69b-4386-9f03-703bfb821f23")
 		(property "Reference" "R90"
-			(at 110.49 83.82 90)
+			(at 105.41 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27243,7 +27243,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 110.49 86.36 90)
+			(at 105.41 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27253,7 +27253,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 91.948 90)
+			(at 105.41 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27264,7 +27264,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
-			(at 110.49 90.17 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27275,7 +27275,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 90.17 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27286,7 +27286,7 @@
 			)
 		)
 		(property "DISTRIBUTOR_LINK" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-07220RL?qs=VU8sRB4EgwA1IyQ0vhXEEw%3D%3D"
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27297,7 +27297,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07220RL"
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27308,7 +27308,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27319,7 +27319,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27330,7 +27330,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27341,7 +27341,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27352,7 +27352,7 @@
 			)
 		)
 		(property "Notes" "N/A"
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27363,7 +27363,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27374,7 +27374,7 @@
 			)
 		)
 		(property "TUNING_ALTERNATIVES" ""
-			(at 110.49 90.17 90)
+			(at 105.41 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

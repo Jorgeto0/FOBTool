@@ -1607,8 +1607,8 @@
 		)
 	)
 	(rectangle
-		(start 12.7 15.24)
-		(end 162.56 74.93)
+		(start 12.7 12.7)
+		(end 162.56 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -1632,7 +1632,7 @@
 	)
 	(text "J-DOCK CONTACT SEQUENCE: \n	pins 1/2/7/8 are long power/ground contacts; pins 3/4/5 are medium signal contacts; \n	pin 6 DOCK_SENSE is the shortest contact. DOCK_VBUS remains disabled until DOCK_SENSE is debounced LOW. \n	On removal, disable DOCK_VBUS when DOCK_SENSE becomes HIGH. \n	Dock UART operates at 921600 baud using the existing framed CRC protocol."
 		(exclude_from_sim no)
-		(at 168.402 108.712 0)
+		(at 170.18 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1715,6 +1715,12 @@
 		(uuid "4b2043f4-cc7e-459f-9c88-372eeb1dafba")
 	)
 	(junction
+		(at 107.95 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50c28bca-32f5-4d8d-900a-c21e5f4bb611")
+	)
+	(junction
 		(at 72.39 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1755,14 +1761,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff292b0b-1a90-4984-a55d-bce023caf44c")
-	)
-	(no_connect
-		(at 130.81 127)
-		(uuid "07e11de3-dcce-4856-b53b-7d9e4d9f5739")
-	)
-	(no_connect
-		(at 130.81 129.54)
-		(uuid "62143a07-0705-44c3-b8d9-1e3a151f6528")
 	)
 	(wire
 		(pts
@@ -2136,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbf0711-5b04-42ef-b436-ae4279ead5f5")
+	)
+	(wire
+		(pts
 			(xy 71.12 96.52) (xy 71.12 100.33)
 		)
 		(stroke
@@ -2143,6 +2151,16 @@
 			(type default)
 		)
 		(uuid "90ba5d4f-bb57-4410-93a6-b83ac9f5ba23")
+	)
+	(wire
+		(pts
+			(xy 119.38 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c8c8d8-9f04-4f3e-8d95-1b3a8b67c098")
 	)
 	(wire
 		(pts
@@ -2163,6 +2181,16 @@
 			(type default)
 		)
 		(uuid "95eee267-f380-4c29-897f-3204f02898bf")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9792b8f5-ccda-431b-a48d-f195f3170eaa")
 	)
 	(wire
 		(pts
@@ -2426,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 107.95 132.08)
+			(xy 107.95 114.3) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -2503,6 +2531,16 @@
 			(justify left bottom)
 		)
 		(uuid "78854a5b-8030-4492-9823-2871c993d738")
+	)
+	(label "DOCK_VBUS"
+		(at 119.38 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c6f0b89-9a64-40f6-81fa-6f0d95c400bc")
 	)
 	(label "DOCK_VBUS"
 		(at 93.98 45.72 0)
@@ -4785,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 135.89 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4808,6 +4846,39 @@
 			)
 		)
 		(property "Notes" "MECHANICAL HOLD before layout release: 8-contact back-face pogo interface. Pins 1/8 DOCK_VBUS; 2/7 GND; 3 DOCK_LINK_A; 4 DOCK_LINK_B; 5 DOCK_SYNC; 6 DOCK_SENSE. Final pogo MPN and project footprint require dock bay dimensions, working compression and alignment tolerance."
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR_LINK" "N/A"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "N/A"
+			(at 135.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 135.89 119.38 0)
 			(hide yes)
 			(show_name no)

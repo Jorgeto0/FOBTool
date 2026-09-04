@@ -15505,7 +15505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"
 			(at 60.96 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15593,7 +15593,7 @@
 				)
 			)
 		)
-		(property "Notes" "DW3220 IRQ pull-down."
+		(property "Notes" "DW3220 reset series resistor."
 			(at 60.96 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -20901,7 +20901,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1bm4zi6*_gcl_au*MzA0ODk5NjM2LjE3ODc5Njk1Njg.*_ga*NDk1ODc5OTUzLjE3ODc5Njk1Njg.*_ga_15W4STQT4T*czE3ODgzMzYxMDQkbzE5JGcxJHQxNzg4MzM2MTA4JGo1NiRsMCRoMA.."
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 127 375.92 0)
 			(hide yes)
 			(show_name no)
@@ -21027,7 +21027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JST_B4B_PH_SM4_TB_LF_SN_ePH.pdf?_gl=1*1bm4zi6*_gcl_au*MzA0ODk5NjM2LjE3ODc5Njk1Njg.*_ga*NDk1ODc5OTUzLjE3ODc5Njk1Njg.*_ga_15W4STQT4T*czE3ODgzMzYxMDQkbzE5JGcxJHQxNzg4MzM2MTA4JGo1NiRsMCRoMA.."
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 127 363.22 0)
 			(hide yes)
 			(show_name no)
@@ -21938,7 +21938,7 @@
 				)
 			)
 		)
-		(property "Notes" "DW3220 IRQ pull-down."
+		(property "Notes" "10k pull-down on NFC_VEN."
 			(at 256.54 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -27582,7 +27582,7 @@
 				)
 			)
 		)
-		(property "Notes" "DW3220 IRQ pull-down."
+		(property "Notes" "10k pull-up on nCS_NFC."
 			(at 240.03 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -28857,7 +28857,7 @@
 				)
 			)
 		)
-		(property "Notes" "DW3220 IRQ pull-down."
+		(property "Notes" "10k pull-up on nCS_UWB."
 			(at 24.13 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -36530,7 +36530,7 @@
 				)
 			)
 		)
-		(property "Notes" "DW3220 IRQ pull-down."
+		(property "Notes" "10k pull-down on NFC_DWL_REQ."
 			(at 246.38 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -37250,7 +37250,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 405.13 109.22 90)
 			(hide yes)
 			(show_name no)

@@ -592,7 +592,7 @@
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -831,7 +831,7 @@
         "uuid": "4178b7d0-cf29-4cf2-b214-acbbbd97d338"
       }
     ],
-    "used_designators": "J11M2,J9M2-4,#FLG1-17,Q1-3,AE1-5,J11C2,T1-3,TP1-9,FL1-12,Y1-5,Y7-10,#PWR1-358,D1-22,U1-10,U12,U14-15,U17-22,U24,U27-50,SW1-5,SW8,C1-260,FB1-8,J1-16,J19-21,NT1,M1,R1-158,MP2-4,BZ1,L1-39,J9C2-3",
+    "used_designators": "#FLG1-17,AE1-5,J11M2,J9M2-4,Q1-3,J11C2,T1-3,FL1-12,TP1-9,J9C2-3,Y1-5,Y7-10,#PWR1-358,D1-22,U1-10,U12,U14-15,U17-22,U24,U27-50,SW1-5,SW8,C1-260,FB1-8,J1-16,J19-21,NT1,M1,R1-158,BZ1,MP2-4,L1-39",
     "variants": []
   },
   "sheets": [

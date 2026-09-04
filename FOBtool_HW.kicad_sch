@@ -3211,16 +3211,6 @@
 				(justify right)
 			)
 		)
-		(pin "DOCK_LINK_A" input
-			(at 78.74 138.43 0)
-			(uuid "2e183e4b-d9ec-4d7c-a5eb-fa36aa87037c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DOCK_LINK_B" input
 			(at 78.74 140.97 0)
 			(uuid "91edb90c-ae3a-495e-8183-40ee289bb5e1")
@@ -3254,6 +3244,16 @@
 		(pin "DOCK_VBUS_EN" output
 			(at 78.74 148.59 0)
 			(uuid "987e5dc2-0e66-44ef-8d76-033b0cd99e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOCK_LINK_A" output
+			(at 78.74 138.43 0)
+			(uuid "248c7a69-fd9f-4ba6-832e-be0492a32ecf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3784,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "ANCHOR_DOCK.kicad_sch"
 			(at 62.23 180.9246 0)
 			(show_name no)
 			(do_not_autoplace no)

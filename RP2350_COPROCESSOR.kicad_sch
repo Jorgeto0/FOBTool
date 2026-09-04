@@ -5702,7 +5702,7 @@
 		(uuid "c260c6a6-0b4e-4db8-a254-a0d46162181e")
 	)
 	(hierarchical_label "DOCK_LINK_A"
-		(shape input)
+		(shape output)
 		(at 163.83 123.19 0)
 		(effects
 			(font
@@ -7128,7 +7128,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 182.88 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12668,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "N/A"
 			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
