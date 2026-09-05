@@ -1632,7 +1632,7 @@
 	)
 	(text "J-DOCK CONTACT SEQUENCE: \n	pins 1/2/7/8 are long power/ground contacts; pins 3/4/5 are medium signal contacts; \n	pin 6 DOCK_SENSE is the shortest contact. DOCK_VBUS remains disabled until DOCK_SENSE is debounced LOW. \n	On removal, disable DOCK_VBUS when DOCK_SENSE becomes HIGH. \n	Dock UART operates at 921600 baud using the existing framed CRC protocol."
 		(exclude_from_sim no)
-		(at 170.18 94.742 0)
+		(at 167.64 21.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)

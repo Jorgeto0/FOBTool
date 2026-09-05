@@ -511,6 +511,76 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "CAN_BUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GROUND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "HAPTIC_DRIVE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "POWER_HIGH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "POWER_LOW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SWITCH_NODE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,7 +588,160 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GROUND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "GROUND",
+        "pattern": "*CHG_PGND"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "+5V_USB"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "+5V_SYS"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "*VBAT"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "*VSYS"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "*VBUS_HOST"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "*DOCK_VBUS"
+      },
+      {
+        "netclass": "POWER_HIGH",
+        "pattern": "*CHG_PMID"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*CHG_SW"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*CHG_BTST"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*BOOST5V_SW"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*BB3V3_SW1"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*BB3V3_SW2"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*VREG_LX"
+      },
+      {
+        "netclass": "SWITCH_NODE",
+        "pattern": "*TFT_BL_K_SW"
+      },
+      {
+        "netclass": "HAPTIC_DRIVE",
+        "pattern": "*HAPTIC_OUT_P"
+      },
+      {
+        "netclass": "HAPTIC_DRIVE",
+        "pattern": "*HAPTIC_OUT_N"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*USBC_D_P"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*USBC_D_N"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*USB_HOST_D_P"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*USB_HOST_D_N"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*RP_USB_D_P"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "*RP_USB_D_N"
+      },
+      {
+        "netclass": "CAN_BUS",
+        "pattern": "*CANH"
+      },
+      {
+        "netclass": "CAN_BUS",
+        "pattern": "*CANL"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*NFC_VDD*"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*UWB_VDD2A"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*UWB_VIO_D"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*UWB_VTX_D"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*GNSS_VCC_RF"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*VCC_CC1101_*"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*VCC_LNA_*"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*VCC_SI4463"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "*RTC_VBACKUP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

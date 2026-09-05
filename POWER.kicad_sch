@@ -14845,7 +14845,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a16fff81-23bf-4eb6-98c8-48883685d6a8")
@@ -14869,7 +14869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:NetTie_2_SMD_3.0mm_Current"
 			(at 33.02 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -19707,7 +19707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:CP_Panasonic_EEF-TX_7.3x4.3mm"
 			(at 254.9652 88.9 0)
 			(hide yes)
 			(show_name no)

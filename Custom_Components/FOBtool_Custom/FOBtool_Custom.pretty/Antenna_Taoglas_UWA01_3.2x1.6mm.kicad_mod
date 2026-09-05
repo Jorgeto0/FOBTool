@@ -1,0 +1,234 @@
+(footprint "Antenna_Taoglas_UWA01_3.2x1.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Taoglas UWA.01 6-9 GHz UWB ceramic chip antenna, 3.2 x 1.6 x 0.5 mm; manufacturer Rev C land pattern and all-layer copper keepout")
+	(tags "Taoglas UWA.01 UWB antenna 6GHz 9GHz ceramic chip antenna")
+	(property "Reference" "REF**"
+		(at 0 -1.82 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aad8ac28-5d31-4db9-9774-5e133f5d717b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Antenna_Taoglas_UWA01_3.2x1.6mm"
+		(at 1.8 5.88 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd89ef50-f415-4907-b223-3f463f96aace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taoglas.com/datasheets/UWA.01.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f300cf78-b698-4b71-9258-72a4cb181f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Taoglas UWA.01 6-9 GHz UWB ceramic chip antenna, 3.2 x 1.6 x 0.5 mm; manufacturer Rev C land pattern and all-layer copper keepout"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6f96167-a3ba-42b5-9db9-cd1dcd1884e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.9 -0.9)
+		(end -1.2 0.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b1d984e9-9ad0-4609-99ce-0290e39d724f")
+	)
+	(fp_circle
+		(center -2.15 0)
+		(end -2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f1d788d3-add8-460b-a9b7-46d219b77fcf")
+	)
+	(fp_rect
+		(start -1.7 -0.7)
+		(end -1.4 0.7)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d2718cea-341f-496b-9968-9e406379751c")
+	)
+	(fp_rect
+		(start -2.15 -1.15)
+		(end 2.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9f9130da-6e44-4951-b152-37de39431734")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "70b71ffc-3804-476c-b8f3-2d493398a08d")
+	)
+	(fp_text user "1"
+		(at -1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d66ff621-e958-44f2-ab17-be9ccd6e1016")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.39 -3.36 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7db6cd65-a66f-4fd2-895f-3064ce8caf3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.55 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.3 -0.8)
+				(end 0.3 1.75)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -1.455 1.745)
+				(end 1.2 2.35)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -2.35 1.45) (xy -1.45 1.75) (xy -1.45 2.35) (xy -2.35 2.65)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start 0.6 2.345)
+				(end 1.2 3.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.05 3.245)
+				(end 1.2 3.85)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "3d254b9b-03b6-49cc-86ba-58c1208e1c20")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.1)
+		(uuid "ef252cb0-f855-49df-8995-ec76eb6d753f")
+	)
+	(pad "3" smd rect
+		(at -2.45 3.55)
+		(size 1.1 0.6)
+		(layers "F.Cu")
+		(uuid "6e861b45-4b30-4035-b062-6e7879dcaf1c")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "7c57b0ee-d26a-480a-b463-67c0d061d425")
+		(name "UWA01_ALL_LAYER_COPPER_KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3.9 -1.1) (xy 3.6 -1.1) (xy 3.6 4.9) (xy -3.9 4.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

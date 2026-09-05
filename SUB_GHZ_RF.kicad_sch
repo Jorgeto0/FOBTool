@@ -26462,7 +26462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:L_Murata_LQH44PN_4.0x4.0mm"
 			(at 276.86 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -39669,7 +39669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:D_Semtech_RCLAMP2451ZA_DFN0603_2"
 			(at 741.68 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -46765,7 +46765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:CP_Panasonic_EEF-LR_7.3x4.3mm_3Terminal"
 			(at 520.7 29.5148 0)
 			(hide yes)
 			(show_name no)
@@ -59754,7 +59754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:D_Semtech_RCLAMP2451ZA_DFN0603_2"
 			(at 254 444.5 0)
 			(hide yes)
 			(show_name no)

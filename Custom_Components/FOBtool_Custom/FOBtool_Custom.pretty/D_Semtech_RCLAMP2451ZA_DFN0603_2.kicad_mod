@@ -1,0 +1,172 @@
+(footprint "D_Semtech_RCLAMP2451ZA_DFN0603_2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Semtech RCLAMP2451ZA bidirectional 24 V TVS, DFN 0.60x0.30x0.25 mm, SLP0603P2X3F")
+	(tags "Semtech RCLAMP2451ZA TVS ESD DFN0603 SLP0603P2X3F")
+	(property "Value" "D_Semtech_RCLAMP2451ZA_DFN0603_2"
+		(at 0 1.05 0)
+		(layer "F.Fab")
+		(uuid "c02790ca-f6e0-4a8d-8076-862058c5d266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R000000UylM/bkWh7zqE8qpM3iFXB7RGF8qJegl_vXHtPvujMssYwTk"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64759316-0e5b-4279-9613-03f985142c83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Semtech RCLAMP2451ZA bidirectional 24 V TVS, DFN 0.60x0.30x0.25 mm, SLP0603P2X3F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07c1e90d-f9d8-428f-b163-07a70cce2e6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "b6def8a4-be0d-446b-a9ce-acacca3ffc62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.55 -0.35)
+		(end 0.55 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca5667bc-b9d1-434c-b1b1-a920f2e7c982")
+	)
+	(fp_line
+		(start -0.55 0.35)
+		(end -0.55 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53ced794-ba43-4db4-bfa6-d2dd9cc393c6")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9435c174-f4ad-4cbb-bef7-51a1f9c4f34c")
+	)
+	(fp_line
+		(start 0.55 0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "431ea416-6d90-410b-bcca-a6ba1850664b")
+	)
+	(fp_line
+		(start -0.3 -0.05)
+		(end -0.2 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffbcd68f-de03-4b35-af82-baddc6a4c60f")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d32efc8e-1544-4f20-9151-ab01efad51d3")
+	)
+	(fp_line
+		(start -0.2 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5a01ba5-a53c-483b-b565-1736c5d1d96c")
+	)
+	(fp_line
+		(start 0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "baa0825c-c78d-473d-a013-0f17ba18e3a4")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aff688e-ec3a-4dff-8e5c-35c74c0b3dcb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 180)
+		(layer "F.Fab")
+		(uuid "466fe49d-3a60-4fbb-af8d-401f91b500b8")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.2125 0)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c09cc67-c04e-403d-84cd-95a33ac1ef92")
+	)
+	(pad "2" smd rect
+		(at 0.2125 0)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b3671d7-fb65-48f0-a608-d55c239998fd")
+	)
+	(embedded_fonts no)
+)

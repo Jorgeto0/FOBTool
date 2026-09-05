@@ -8879,7 +8879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:L_Abracon_AOTA-B201610S_2.0x1.6mm"
 			(at 137.16 34.29 0)
 			(hide yes)
 			(show_name no)

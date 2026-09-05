@@ -1,0 +1,182 @@
+(footprint "L_Murata_LQH44PN_4.0x4.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Murata LQH44PN series shielded power inductor, 4.0 x 4.0 x 1.65 mm; land pattern based on manufacturer specification")
+	(tags "Murata LQH44PN LQH44PN150MPRL 15uH power inductor shielded SMD 4040")
+	(property "Reference" "REF**"
+		(at 0 -2.94 0)
+		(layer "F.SilkS")
+		(uuid "4b67017c-1473-4087-92c2-6ea0e0372bec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Murata_LQH44PN_4.0x4.0mm"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "653e64de-1f91-4d07-91e3-00b345be54e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0190_PDF_INDUCTOR?lastModifiedDatetime=20250708072052"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "255c7535-23ee-4559-b4cb-2950566fec99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Murata LQH44PN series shielded power inductor, 4.0 x 4.0 x 1.65 mm; land pattern based on manufacturer specification"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bffc8dde-6fb1-4fbe-b4ad-cc4be68e121f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2 -2.11)
+		(end 2 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e7cd3b5-7616-4a48-9f00-64814a88b97d")
+	)
+	(fp_line
+		(start 2 2.11)
+		(end -2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2b9ca22-22e2-4d91-be50-a6183f02fe1b")
+	)
+	(fp_line
+		(start -2.45 -2.35)
+		(end 2.45 -2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f07e8ec0-fd78-4565-a5e7-89087d197d5b")
+	)
+	(fp_line
+		(start -2.45 2.35)
+		(end -2.45 -2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1916e1f7-555c-4e62-a074-93593cc4fc2d")
+	)
+	(fp_line
+		(start 2.45 -2.35)
+		(end 2.45 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60a0ff82-6789-4af0-96ed-b33d06273db4")
+	)
+	(fp_line
+		(start 2.45 2.35)
+		(end -2.45 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3589d984-d031-4c22-98fe-fd77405a08a3")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20eae330-29df-419d-ae43-1da59d8fbc48")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4279720d-43be-4aca-a164-b0a8d523bcf4")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35d5115b-12c0-4ae5-a41e-8e15e49a916f")
+	)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9146722e-a19c-4254-98ed-01311be0b311")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "013659a0-250b-41a9-8d41-2038accc4600")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.45 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcbc1fab-d0f2-418f-8b0d-aa1d8ed5d9d3")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.45 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2c0008a-000a-456c-ab57-4056c7209d5e")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,155 @@
+(footprint "L_Abracon_AOTA-B201610S_2.0x1.6mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Abracon AOTA-B201610S3R3-101-T marked-winding 3.3 uH power inductor, 2.0 x 1.6 x 1.0 mm; pad 1 identifies the white-dot terminal.")
+	(tags "Abracon AOTA-B201610S RP2350 3.3uH marked winding polarity")
+	(property "Reference" "REF**"
+		(at 0 -1.55 0)
+		(layer "F.SilkS")
+		(uuid "11a8e08b-662c-453f-809d-43e87611d89d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Abracon_AOTA-B201610S_2.0x1.6mm"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(uuid "30cd6dc7-4e75-42c0-875a-29416bac0f53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/parametric/inductors/AOTA-B201610S3R3-101-T"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fcf2c1b-37b6-4d4f-b516-6edce030e9ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Abracon AOTA-B201610S3R3-101-T marked-winding 3.3 uH power inductor, 2.0 x 1.6 x 1.0 mm; pad 1 identifies the white-dot terminal."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f3be2e5-b471-418e-84f2-974f83d68baf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f093d611-5522-4e24-a910-17ab68d3bb49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.7 -0.25)
+		(end -1.7 0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1edf9e6-57e6-4bc0-ac67-65c495b4002b")
+	)
+	(fp_line
+		(start -0.3 -0.95)
+		(end 0.3 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00391ac0-bc6e-4e49-9c3f-b08dce96fb6d")
+	)
+	(fp_line
+		(start -0.3 0.95)
+		(end 0.3 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "479e3701-95fc-4579-8940-65bfb9c9f0ed")
+	)
+	(fp_rect
+		(start -1.8 -1.05)
+		(end 1.8 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "719cb543-5a3a-4fae-8002-e4db8335f724")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61d8c139-794d-496f-8c4f-d5bdff6b6586")
+	)
+	(fp_circle
+		(center -0.7 -0.4)
+		(end -0.575 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "51172d9c-dbb1-40c4-8dce-0f68bdd2a788")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "70342290-52eb-45da-86e5-bf592a4b9f06")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cb1b78f8-dea0-4eec-b4ef-9665d6b38b35")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "17e5c7aa-3e32-4917-9c5b-dccc3f411470")
+	)
+	(embedded_fonts no)
+)

@@ -12335,7 +12335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:RotaryEncoder_Bourns_PEC11R-4215F-S0024"
 			(at 177.8 32.766 0)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +14977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FOBtool_Custom:CP_Seiko_CPH3225A_3.2x2.5mm"
 			(at 228.6 90.4748 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,15 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v184)
+"   /Users/jorge/Workspace/FreeLance/Owens/FOBtool_HW/docs
+"   Sorted by      name
+"   Sort sequence: [\/]$,*,\(\.bak\|\~\|\.o\|\.h\|\.info\|\.swp\|\.obj\)[*@]\=$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+.DS_Store
+MAIN_CONTROLLER.md
+POWER.md
+README.md
+RP2350_COPROCESSOR.md
+SUB_GHZ_RF.md
