@@ -43,11 +43,11 @@
           "height": 1.27,
           "width": 1.27
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -93,7 +99,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "ignore",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -105,7 +111,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -132,7 +138,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -140,21 +146,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -203,7 +209,19 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +248,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -513,63 +544,98 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "CAN_BUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "GROUND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "HAPTIC_DRIVE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER_HIGH",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER_LOW",
+        "clearance": 0.2,
+        "name": "BOOTSTRAP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "CAN_BUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
-        "name": "SWITCH_NODE",
+        "name": "GROUND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "HAPTIC_DRIVE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
         "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "POWER_HIGH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "POWER_LOW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "line_style": 0,
+        "name": "SWITCH_NODE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -577,9 +643,9 @@
         "line_style": 0,
         "name": "USB_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
+        "tuning_profile": "USB_90R_TOP_PRELIM",
         "wire_width": 6
       }
     ],
@@ -634,7 +700,7 @@
         "pattern": "*CHG_SW"
       },
       {
-        "netclass": "SWITCH_NODE",
+        "netclass": "BOOTSTRAP",
         "pattern": "*CHG_BTST"
       },
       {
@@ -698,7 +764,7 @@
         "pattern": "*CANL"
       },
       {
-        "netclass": "POWER_LOW",
+        "netclass": "POWER_HIGH",
         "pattern": "+3V3"
       },
       {
@@ -1054,7 +1120,7 @@
         "uuid": "4178b7d0-cf29-4cf2-b214-acbbbd97d338"
       }
     ],
-    "used_designators": "#FLG1-17,AE1-5,J11M2,J9M2-4,Q1-3,J11C2,T1-3,FL1-12,TP1-9,J9C2-3,Y1-5,Y7-10,#PWR1-358,D1-22,U1-10,U12,U14-15,U17-22,U24,U27-50,SW1-5,SW8,C1-260,FB1-8,J1-16,J19-21,NT1,M1,R1-158,BZ1,MP2-4,L1-39",
+    "used_designators": "L1-39,MP2-4,BZ1,R1-158,M1,NT1,J1-16,J19-21,FB1-8,C1-260,SW1-5,SW8,U1-10,U12,U14-15,U17-22,U24,U27-50,D1-22,#PWR1-358,Y1-5,Y7-10,J9C2-3,FL1-12,TP1-9,T1-3,J11C2,Q1-3,J9M2-4,J11M2,AE1-5,#FLG1-17",
     "variants": []
   },
   "sheets": [
@@ -1100,6 +1166,25 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": false,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6045100,
+            "diff_pair_gap": 200000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 299848
+          }
+        ],
+        "profile_name": "USB_90R_TOP_PRELIM",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }
