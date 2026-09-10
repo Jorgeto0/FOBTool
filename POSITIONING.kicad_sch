@@ -3096,6 +3096,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FOBtool_Custom:JST_PH_2Pin_MP"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J15"
+				(at 0.762 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DISTRIBUTOR_LINK" "https://eu.mouser.com/en/ProductDetail/JST-Commercial/S2B-PH-SM4-TBLFSN?qs=QpmGXVUTftGPIOdg%2F2bstg%3D%3D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Notes" "LF coil connection. Pin 1=DRV, pin 2=TUNE. Mates PHR-2 housing with 2x SPH-002T-P0.5S contacts. Label harness A/B."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JST_PH_2Pin_MP_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "MOUNT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FOBtool_Custom:MAX-M10N-10B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7151,6 +7373,10 @@
 		(uuid "3dda82ad-15d3-46a4-b5b5-36f662c07fb5")
 	)
 	(no_connect
+		(at 132.08 378.46)
+		(uuid "49a4713e-6b59-4408-85db-b19d0355a72a")
+	)
+	(no_connect
 		(at 49.53 172.72)
 		(uuid "4b12ee9a-1b90-4e15-a21b-2700bba87360")
 	)
@@ -7213,6 +7439,10 @@
 	(no_connect
 		(at 213.36 259.08)
 		(uuid "c5ae69a1-2b51-4b83-8984-263283032fdc")
+	)
+	(no_connect
+		(at 132.08 365.76)
+		(uuid "d0ff805f-c4e1-402a-a9c5-14d475c89eb4")
 	)
 	(no_connect
 		(at 74.93 236.22)
@@ -20857,7 +21087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "FOBtool_Custom:JST_PH_2Pin_MP")
 		(at 127 375.92 0)
 		(unit 1)
 		(body_style 1)
@@ -20869,25 +21099,23 @@
 		(fields_autoplaced yes)
 		(uuid "332eace8-12c8-45e4-99bd-87da169a4dee")
 		(property "Reference" "J16"
-			(at 129.54 375.9199 0)
+			(at 127 369.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 129.54 378.4599 0)
+			(at 127 372.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
@@ -20973,6 +21201,9 @@
 		(pin "1"
 			(uuid "9269d634-3444-453b-b5e3-5c4504e5bfa7")
 		)
+		(pin "MP"
+			(uuid "d2023f61-674e-4342-b111-9ae3b5758c43")
+		)
 		(instances
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/e68072eb-1a73-49dc-9cee-ac0e0ab7a67a"
@@ -20983,7 +21214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "FOBtool_Custom:JST_PH_2Pin_MP")
 		(at 127 363.22 0)
 		(unit 1)
 		(body_style 1)
@@ -20992,10 +21223,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "340a54dc-3c8f-4089-8880-e2ce8d1504a2")
 		(property "Reference" "J15"
-			(at 129.54 363.2199 0)
+			(at 127.508 360.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21006,7 +21236,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 129.54 365.7599 0)
+			(at 128.016 367.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21098,6 +21328,9 @@
 		)
 		(pin "1"
 			(uuid "d4ba4caf-09a7-4298-92cf-f6e1abbaa5ac")
+		)
+		(pin "MP"
+			(uuid "0d36dee1-8a87-45f0-9d15-8ac42bc02309")
 		)
 		(instances
 			(project "FOBtool_HW"

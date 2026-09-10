@@ -30,7 +30,7 @@
 				)
 			)
 			(property "Value" "B0310J50100AHF"
-				(at -25.418 -5.8461 0)
+				(at -26.162 -9.652 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -40,7 +40,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "B0310J50100AHF:XFMR_B0310J50100AHF"
+			(property "Footprint" "BO310:XFMR_B0310J50100AHF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -197,8 +197,8 @@
 			)
 			(symbol "B0310J50100AHF_0_0"
 				(rectangle
-					(start -25.4 -5.08)
-					(end 25.4 5.08)
+					(start -25.4 5.08)
+					(end 25.4 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -272,6 +272,44 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "B0310J50100AHF_1_1"
+				(pin passive line
+					(at -30.48 -6.35 0)
+					(length 5.08)
+					(name "NC_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -6.35 180)
+					(length 5.08)
+					(name "NC_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8223,6 +8261,10 @@
 		(uuid "fe2d2a48-f1c6-4d84-b38d-3a5ee7e5a374")
 	)
 	(no_connect
+		(at 397.51 185.42)
+		(uuid "06f548c1-cf31-48b4-927b-5d63c9f56e45")
+	)
+	(no_connect
 		(at 693.42 391.16)
 		(uuid "09afcb59-b908-4dcf-8f97-448399e9f686")
 	)
@@ -8235,12 +8277,28 @@
 		(uuid "20095e41-c367-4a1b-a7a9-392aaafa5cf3")
 	)
 	(no_connect
+		(at 373.38 452.12)
+		(uuid "20111f66-5d0c-491b-9083-b54ea82b16d9")
+	)
+	(no_connect
+		(at 434.34 452.12)
+		(uuid "2fa5742a-1003-4474-9b95-b0cfd0934b74")
+	)
+	(no_connect
+		(at 93.98 377.19)
+		(uuid "3e3b3a58-033e-4e03-9edf-47ccaa59ecf0")
+	)
+	(no_connect
 		(at 226.06 115.57)
 		(uuid "3f563c8b-c650-4879-92ed-4ba04c267233")
 	)
 	(no_connect
 		(at 654.05 429.26)
 		(uuid "5821e65b-9e96-4190-a045-356f04e6f064")
+	)
+	(no_connect
+		(at 33.02 377.19)
+		(uuid "5ba048b2-e9d5-46eb-90c0-c77914b2b29d")
 	)
 	(no_connect
 		(at 693.42 393.7)
@@ -8273,6 +8331,10 @@
 	(no_connect
 		(at 657.86 358.14)
 		(uuid "e539021b-20eb-4f50-99f0-6cb7a12b1412")
+	)
+	(no_connect
+		(at 458.47 185.42)
+		(uuid "fc678b1d-eedd-4d24-a6b1-83c296aa811b")
 	)
 	(wire
 		(pts
@@ -10466,7 +10528,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 373.38) (xy 95.25 373.38)
+			(xy 93.98 373.38) (xy 97.79 373.38)
 		)
 		(stroke
 			(width 0)
@@ -16086,7 +16148,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 373.38) (xy 95.25 377.19)
+			(xy 97.79 373.38) (xy 97.79 377.19)
 		)
 		(stroke
 			(width 0)
@@ -22077,7 +22139,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 377.19 0)
+		(at 97.79 377.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22088,7 +22150,7 @@
 		(fields_autoplaced yes)
 		(uuid "04fbc180-c6b0-48bf-b601-3a72965ecd53")
 		(property "Reference" "#PWR0104"
-			(at 95.25 383.54 0)
+			(at 97.79 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22099,7 +22161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 382.27 0)
+			(at 97.79 382.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22109,7 +22171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 377.19 0)
+			(at 97.79 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22120,7 +22182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 377.19 0)
+			(at 97.79 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22131,7 +22193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 377.19 0)
+			(at 97.79 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23473,7 +23535,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "TTM Technologies"
+		(property "MANUFACTURER" "Anaren"
 			(at 403.86 445.77 0)
 			(hide yes)
 			(show_name no)
@@ -23584,6 +23646,12 @@
 		)
 		(pin "3"
 			(uuid "7145bce2-4150-4471-9bb0-4104f754ca70")
+		)
+		(pin "6"
+			(uuid "0fe1388d-78b1-4f0a-98b4-86c3cb5aa4b6")
+		)
+		(pin "5"
+			(uuid "452ee83a-8d61-481b-9f3b-6e9f0865cf3f")
 		)
 		(instances
 			(project "FOBtool_HW"
@@ -45638,7 +45706,7 @@
 		(dnp no)
 		(uuid "5c1948cf-497e-470e-a13a-734123fe3651")
 		(property "Reference" "T2"
-			(at 452.12 185.928 0)
+			(at 452.628 188.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45800,7 +45868,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "TTM Technologies"
+		(property "MANUFACTURER" "Anaren"
 			(at 427.99 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -45911,6 +45979,12 @@
 		)
 		(pin "3"
 			(uuid "97b97433-4da5-4cea-9efc-2c0b8b50cd19")
+		)
+		(pin "6"
+			(uuid "5fb9d19d-9fe9-48f6-bf8f-d1c63be842a7")
+		)
+		(pin "5"
+			(uuid "7f898306-d2ec-4cab-a7ad-14d458c1d008")
 		)
 		(instances
 			(project "FOBtool_HW"
@@ -67808,7 +67882,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "TTM Technologies"
+		(property "MANUFACTURER" "Anaren"
 			(at 63.5 370.84 0)
 			(hide yes)
 			(show_name no)
@@ -67919,6 +67993,12 @@
 		)
 		(pin "3"
 			(uuid "8aafdef8-8e4c-4661-bd5a-021263a92480")
+		)
+		(pin "6"
+			(uuid "14c054b7-fac9-4831-b36e-4ec4d7163d49")
+		)
+		(pin "5"
+			(uuid "5828bb48-1fa6-4f11-898b-61533dc294f8")
 		)
 		(instances
 			(project "FOBtool_HW"
