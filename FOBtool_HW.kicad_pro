@@ -544,10 +544,17 @@
         "wire_width": 6
       },
       {
+        "name": "ANALOG_SENSE",
+        "pcb_color": "rgb(183, 223, 164)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.2,
         "name": "BOOTSTRAP",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 140, 0)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -559,8 +566,8 @@
         "clearance": 0.2,
         "line_style": 0,
         "name": "CAN_BUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(0, 186, 160)",
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -573,8 +580,8 @@
         "clearance": 0.2,
         "line_style": 0,
         "name": "GROUND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "pcb_color": "rgb(144, 153, 166)",
+        "priority": 13,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -587,8 +594,8 @@
         "clearance": 0.2,
         "line_style": 0,
         "name": "HAPTIC_DRIVE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(223, 163, 72)",
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -597,12 +604,26 @@
         "wire_width": 6
       },
       {
+        "name": "LF_DRIVE",
+        "pcb_color": "rgb(92, 158, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "NFC_RF",
+        "pcb_color": "rgb(182, 145, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "line_style": 0,
         "name": "POWER_HIGH",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "pcb_color": "rgb(255, 82, 82)",
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -615,8 +636,8 @@
         "clearance": 0.2,
         "line_style": 0,
         "name": "POWER_LOW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 155, 134)",
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -625,12 +646,26 @@
         "wire_width": 6
       },
       {
+        "name": "RF_SIGNAL",
+        "pcb_color": "rgb(255, 230, 0)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI_QSPI",
+        "pcb_color": "rgb(100, 229, 114)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "line_style": 0,
         "name": "SWITCH_NODE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "pcb_color": "rgb(255, 140, 0)",
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -642,11 +677,18 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB_90R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(0, 217, 255)",
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "USB_90R_TOP_PRELIM",
         "wire_width": 6
+      },
+      {
+        "name": "XTAL_CLOCK",
+        "pcb_color": "rgb(255, 111, 216)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -769,11 +811,11 @@
       },
       {
         "netclass": "POWER_LOW",
-        "pattern": "+1V1"
+        "pattern": "RP2350_1V1"
       },
       {
         "netclass": "POWER_LOW",
-        "pattern": "*NFC_VDD*"
+        "pattern": "/POSITIONING/NFC_VDD"
       },
       {
         "netclass": "POWER_LOW",
@@ -806,6 +848,278 @@
       {
         "netclass": "POWER_LOW",
         "pattern": "*RTC_VBACKUP"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_*_FILT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_BALUN*"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/SPI_*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_XOSC_*"
+      },
+      {
+        "netclass": "NFC_RF",
+        "pattern": "/POSITIONING/NFC_ANT_LOOP_*"
+      },
+      {
+        "netclass": "LF_DRIVE",
+        "pattern": "/POSITIONING/LF_*_DRV"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/BB3V3_FB"
+      },
+      {
+        "netclass": "POWER_LOW",
+        "pattern": "/POSITIONING/NFC_VDD_IN"
+      },
+      {
+        "netclass": "NFC_RF",
+        "pattern": "/POSITIONING/NFC_MATCH_OUT_*"
+      },
+      {
+        "netclass": "NFC_RF",
+        "pattern": "/POSITIONING/NFC_TX*"
+      },
+      {
+        "netclass": "NFC_RF",
+        "pattern": "/POSITIONING/NFC_RX*"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/nCS_*"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/NFC_MISO"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/NFC_MOSI"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/NFC_SCK"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/RP2350_COPROCESSOR/QSPI_*"
+      },
+      {
+        "netclass": "SPI_QSPI",
+        "pattern": "/RP2350_COPROCESSOR/FLASH_SS"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/SUB_GHZ_RF/SI4463_XOSC_*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/POSITIONING/UWB_XTI_*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/POSITIONING/UWB_XTO_*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/POSITIONING/NFC_CLK_XTAL1"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/POSITIONING/NFC_XTAL2"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/POSITIONING/TMS_*_OSC*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/RP2350_COPROCESSOR/XIN"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/RP2350_COPROCESSOR/XOUT*"
+      },
+      {
+        "netclass": "XTAL_CLOCK",
+        "pattern": "/HMI/RTC_OSC*"
+      },
+      {
+        "netclass": "LF_DRIVE",
+        "pattern": "/POSITIONING/LF_*_RETURN"
+      },
+      {
+        "netclass": "LF_DRIVE",
+        "pattern": "/POSITIONING/LF_*_TUNE"
+      },
+      {
+        "netclass": "LF_DRIVE",
+        "pattern": "/POSITIONING/TMS_*_ANT*"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/BB3V3_RT"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/BB3V3_VC*"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/BOOST5V_FB"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/CHG_ILIM"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/CHG_TS"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POWER/USB_HOST_ILIM"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/ANCHOR_DOCK/DOCK_HOST_ILIM"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_RBIAS"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/SUB_GHZ_RF/CC1101_B_PA2_IREF*"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/SUB_GHZ_RF/CC1101_B_PA2_VBIAS*"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POSITIONING/NFC_FIELD_DET_*"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POSITIONING/NFC_VDD_VMID"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POSITIONING/TMS_*_SENSE"
+      },
+      {
+        "netclass": "ANALOG_SENSE",
+        "pattern": "/POSITIONING/TMS_*_SFB"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_BAND_OUT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_MATCH*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_TRX_DIFF*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_LNA_IN"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_LNA_OUT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_LNA_RF*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA_IN*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA_OUT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA_RF*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA_FEEDBACK_NODE"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA2_IN_MATCH*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA2_OUT_MATCH*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA2_RF*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PA_RAW_OUT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_POSTPA*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_PRE_SAW_IN"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/CC1101_*_SMA*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/SI4463_*RF"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/SI4463_RX_N"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/SI4463_RX_P"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/SI4463_TX_MATCH*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/SUB_GHZ_RF/SI4463_SMA4_PORT"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/POSITIONING/GNSS_RF_IN"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/POSITIONING/UWB_RF*"
+      },
+      {
+        "netclass": "RF_SIGNAL",
+        "pattern": "/POSITIONING/UWB_ANT*"
       }
     ]
   },

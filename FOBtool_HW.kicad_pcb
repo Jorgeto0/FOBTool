@@ -14193,6 +14193,17 @@
 			(uuid "b8687236-c0c8-4f6a-805d-c56a1766b254")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/CS/CSTCR4M00G55B-R0/CSTCR4M00G55B-R0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -21835,6 +21846,17 @@
 			(uuid "ef69302c-06a5-4461-9242-b2f85182ea92")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/EEFLR0J680R.step"
+			(offset
+				(xyz 0.05 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Filter:Filter_SAW_Epcos_DCC6C_3x3mm"
 		(layer "F.Cu")
@@ -59960,6 +59982,17 @@
 			(uuid "8f047a2b-02b6-4d30-84ba-acb087bb2836")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/SN/SN74AHCT00PWR/SN74AHCT00PWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
@@ -74214,6 +74247,17 @@
 			(uuid "c9668613-994a-49db-a09b-b04f9621812c")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/SLP0603P2X3F_SEM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -81772,6 +81816,17 @@
 			(uuid "b621faa2-5bc3-4bc4-a652-7daa1af7de5e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -87131,6 +87186,17 @@
 			(uuid "61bf57cd-805f-4b8c-b6ad-a096890c3617")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
@@ -96930,6 +96996,17 @@
 			(uuid "8b0dca65-eb5b-4e33-9e97-14e44de8191e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/CS/CSTCR4M00G55B-R0/CSTCR4M00G55B-R0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
@@ -101027,6 +101104,17 @@
 			(uuid "969b1810-b4bd-4c02-8617-fe093d4f08c8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -112051,6 +112139,17 @@
 			(uuid "edb751d7-cad8-455b-b547-d71c32a92049")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
@@ -116589,6 +116688,17 @@
 			(uuid "b80c2177-ace7-44b1-b5c7-da935c018616")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/LT/LT3154AV_TRPBF/LT3154AV_TRPBF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -117714,6 +117824,17 @@
 			(uuid "4067ed8f-97ef-4cc1-a9fd-340477ca6b68")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/SLP0603P2X3F_SEM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
@@ -128352,7 +128473,7 @@
 	(footprint "FOBtool_Custom:RotaryEncoder_Bourns_PEC11R-4215F-S0024"
 		(layer "F.Cu")
 		(uuid "a9734907-0a54-4441-9621-e495da9d65e9")
-		(at 127.245 36.775)
+		(at 285 127)
 		(descr "Bourns PEC11R-4215F-S0024 12 mm incremental rotary encoder, rear-facing through-hole terminals, 15 mm flatted shaft, 24 detents, 24 pulses and momentary push switch")
 		(tags "Bourns PEC11R PEC11R-4215F-S0024 rotary encoder push switch rear facing through hole")
 		(property "Reference" "SW1"
@@ -129414,6 +129535,17 @@
 			(uuid "61a59626-6a43-4b9c-a6a1-d5ad3a8f7d57")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/TQP/TQP3M9036/TQP3M9036.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0402_1005Metric"
 		(layer "F.Cu")
@@ -133158,6 +133290,17 @@
 			(uuid "65b6a8c6-ed17-457e-8bae-a5c2e72212d8")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/CPH3225A.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -134022,6 +134165,17 @@
 			(uuid "4cff41d8-76bd-47c0-8321-18fb0008b98f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/LQH44PN150MPRL.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
@@ -139537,6 +139691,17 @@
 			(uuid "d5de5f97-b1b4-4194-8fe9-958b5403d445")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -156193,6 +156358,17 @@
 			(uuid "b1167fd7-3463-4b25-ac6f-80ff27db46a2")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/BGS13SN8E6327XTSA1.stp"
+			(offset
+				(xyz 0 0 0.02)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -179182,6 +179358,17 @@
 			(uuid "1e19d68e-b826-471b-9e83-2b876cccfefa")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/AOTA-B201610S3R3-101-T--3DModel-STEP-510211.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -188194,6 +188381,17 @@
 			(uuid "16e60229-4bcc-420d-b9a0-7bc01c4d9e9d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/Custom_Components/FOBtool_Custom/3dmodels/EEFTX0J121RF.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -189653,6 +189851,17 @@
 		(layer "Dwgs.User")
 		(uuid "6cfde54f-26f2-4853-a673-7dabcf139c28")
 	)
+	(gr_rect
+		(start 267.7 65)
+		(end 302.3 112.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "aebb7696-8b92-4ef9-9b09-40d349b29433")
+	)
 	(gr_line
 		(start 285 53)
 		(end 285 165)
@@ -189673,6 +189882,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0c4cd917-f24f-4019-99a0-3b8b24285f5b")
+	)
+	(gr_text "DISPLAY BODY 34.60 x 47.80 mm\nPROVISIONAL POSITION"
+		(at 274 69 0)
+		(layer "Dwgs.User")
+		(uuid "e0149158-7942-441b-a330-a3e584156be0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(embedded_fonts no)
 )
