@@ -16,4 +16,5 @@
 	(lib (name "SN74AHCT00PWR") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/SN/SN74AHCT00PWR/SN74AHCT00PWR.kicad_sym") (options "") (descr ""))
 	(lib (name "CSTCR4M00G55B-R0") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/CS/CSTCR4M00G55B-R0/CSTCR4M00G55B-R0.kicad_sym") (options "") (descr ""))
 	(lib (name "SN74LVC157APWR") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/SN/SN74LVC157APWR/SN74LVC157APWR.kicad_sym") (options "") (descr ""))
+	(lib (name "1054301103") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/1054/1054301103/1054301103.kicad_sym") (options "") (descr ""))
 )

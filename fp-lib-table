@@ -16,4 +16,5 @@
 	(lib (name "CSCT") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/CS/CSTCR4M00G55B-R0/CSCT.pretty") (options "") (descr ""))
 	(lib (name "SN74") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/SN/SN74AHCT00PWR/SN74.pretty") (options "") (descr ""))
 	(lib (name "SN74LV") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/SN/SN74LVC157APWR/SN74LV.pretty") (options "") (descr ""))
+	(lib (name "1054") (type "KiCad") (uri "${KIPRJMOD}/Custom_Components/1054/1054301103/1054.pretty") (options "") (descr ""))
 )
