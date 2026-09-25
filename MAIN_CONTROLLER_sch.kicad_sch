@@ -2017,16 +2017,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 92.71) (xy 219.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd1b8f0-9d74-4e68-950e-6d6da16e6000")
-	)
-	(wire
-		(pts
 			(xy 152.4 101.6) (xy 152.4 102.87)
 		)
 		(stroke
@@ -2264,6 +2254,16 @@
 			(type default)
 		)
 		(uuid "d3a552e2-4678-40ef-9992-521de0a97cb5")
+	)
+	(wire
+		(pts
+			(xy 213.36 92.71) (xy 219.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4192b62-c853-40a9-a5b4-fcddf15b5460")
 	)
 	(wire
 		(pts
@@ -5218,6 +5218,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 157.48 63.5 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5225,10 +5226,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e03951d3-590f-44d0-b31d-21fe01dc0f69")
 		(property "Reference" "R18"
-			(at 160.02 62.2299 0)
+			(at 154.94 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5239,7 +5239,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 160.02 64.7699 0)
+			(at 154.94 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5250,7 +5250,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.702 63.5 90)
+			(at 159.258 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

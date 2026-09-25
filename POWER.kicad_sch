@@ -4029,10 +4029,10 @@
 		(uuid "1f6d4193-444d-4620-837b-670b1f8c6635")
 	)
 	(junction
-		(at 140.97 148.59)
+		(at 140.97 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a73e715-3a17-4447-89a7-4a342b14e8e0")
+		(uuid "25908b5f-950a-418b-880c-6dd0e2218831")
 	)
 	(junction
 		(at 99.06 137.16)
@@ -4045,6 +4045,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "333b1f38-9ad7-421d-a00d-fd47c4b5905d")
+	)
+	(junction
+		(at 160.02 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c321bd-866b-42d1-891f-91740ae0fa19")
 	)
 	(junction
 		(at 242.57 105.41)
@@ -4111,12 +4117,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66db67b3-d4ec-4304-afb4-1ead276587e0")
-	)
-	(junction
-		(at 153.67 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6706a17a-33f3-4a1d-8996-9cc96afe0256")
 	)
 	(junction
 		(at 99.06 134.62)
@@ -4191,6 +4191,12 @@
 		(uuid "9614dbc9-a48f-4265-824c-9d7f2de88ebc")
 	)
 	(junction
+		(at 140.97 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef64bd2-02c2-4101-ae3b-b6a9ed9c957c")
+	)
+	(junction
 		(at 224.79 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4213,12 +4219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8950099-a112-4b0f-bc3e-bb9379d3b295")
-	)
-	(junction
-		(at 140.97 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8a0c0a7-f286-4f2c-b021-bfc4f16c0591")
 	)
 	(junction
 		(at 102.87 67.31)
@@ -4824,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 148.59) (xy 140.97 148.59)
+			(xy 140.97 148.59) (xy 160.02 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5084,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 148.59) (xy 153.67 149.86)
+			(xy 160.02 148.59) (xy 160.02 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5514,7 +5514,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 153.67 148.59)
+			(xy 160.02 146.05) (xy 160.02 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5784,7 +5784,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 138.43) (xy 153.67 134.62)
+			(xy 160.02 138.43) (xy 160.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5984,7 +5984,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 153.67 134.62)
+			(xy 140.97 134.62) (xy 160.02 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9868,7 +9868,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 142.24 0)
+		(at 160.02 142.24 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9876,10 +9877,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ad9d22c-6df6-42b3-a441-8f9081a018e8")
 		(property "Reference" "C13"
-			(at 157.48 140.9699 0)
+			(at 156.21 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9890,7 +9890,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 157.48 143.5099 0)
+			(at 156.21 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9901,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.6352 146.05 0)
+			(at 159.0548 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9912,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRM188R71A225KE15D"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9934,7 +9934,7 @@
 			)
 		)
 		(property "DISTRIBUTOR_LINK" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R71A225KE15D?qs=FI%2F1jqMWe7rgTInCPAq47w%3D%3D"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9945,7 +9945,7 @@
 			)
 		)
 		(property "MPN" "GRM188R71A225KE15D"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,7 +9956,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,7 +9967,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9978,7 +9978,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +9989,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10000,7 +10000,7 @@
 			)
 		)
 		(property "Notes" "N/A"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10011,7 +10011,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10022,7 +10022,7 @@
 			)
 		)
 		(property "TUNING_ALTERNATIVES" ""
-			(at 153.67 142.24 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15019,7 +15019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 149.86 0)
+		(at 160.02 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15030,7 +15030,7 @@
 		(fields_autoplaced yes)
 		(uuid "a084b331-7d7b-4360-ac6c-636c8dcdfe2f")
 		(property "Reference" "#PWR015"
-			(at 153.67 156.21 0)
+			(at 160.02 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15041,7 +15041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 154.94 0)
+			(at 160.02 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15051,7 +15051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 149.86 0)
+			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15062,7 +15062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 149.86 0)
+			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15073,7 +15073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 149.86 0)
+			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
