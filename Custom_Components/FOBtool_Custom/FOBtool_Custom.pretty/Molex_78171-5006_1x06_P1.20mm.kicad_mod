@@ -1,0 +1,197 @@
+(footprint "Molex_78171-5006_1x06_P1.20mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Molex 781715006; manufacturer drawing 781710001-SD Rev C sheets 1-2. Project courtyard and conservative copper rule area; no 3D model.")
+	(tags "Molex Pico-EZmate 78171-5006")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "44a7cec6-e0a4-4182-bd0a-6091b441e5c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_78171-5006_1x06_P1.20mm"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "f40432c2-3e80-4488-a730-e0c7425e8ed2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4eb52b5-2eb0-4a28-baf1-3e4d56db4dc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88e4a92f-ee3d-4707-ae4e-0bb95f733c5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.65 -2.2)
+		(end -4.65 1.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2ec7dbf5-c34a-43b6-9bdf-b73ffe75e755")
+	)
+	(fp_line
+		(start -3.6 2.65)
+		(end 3.6 2.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "01711f72-c9e5-4659-8ad7-7fea55f6d6ab")
+	)
+	(fp_line
+		(start 4.65 -2.2)
+		(end 4.65 1.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cf829138-58c9-4393-b5a4-68ce0877d9b6")
+	)
+	(fp_poly
+		(pts
+			(xy -3 -2.55) (xy -3.22 -2.85) (xy -2.78 -2.85)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f6314a25-79ef-42be-bc34-579c993478ab")
+	)
+	(fp_rect
+		(start -5.4 -2.8)
+		(end 5.4 3.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "43a0b4ab-2580-493b-b0fd-430972b8514d")
+	)
+	(fp_rect
+		(start -4.5 -2.04)
+		(end 4.5 2.46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5548a1a0-69db-4da7-be50-e8b335b0f358")
+	)
+	(pad "1" smd rect
+		(at -3 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74599fab-7e3e-4767-bc8a-ae014d369ae2")
+	)
+	(pad "2" smd rect
+		(at -1.8 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "354785e3-8048-4265-9723-0bd0f53123c6")
+	)
+	(pad "3" smd rect
+		(at -0.6 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "290d638c-be70-4701-85a7-4473d81d98b7")
+	)
+	(pad "4" smd rect
+		(at 0.6 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b458fc04-d3aa-4cf7-bbc0-675284db9910")
+	)
+	(pad "5" smd rect
+		(at 1.8 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "860ba5eb-a608-4ad3-9925-9892eb5d854a")
+	)
+	(pad "6" smd rect
+		(at 3 -1.875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0d40df3-c68f-4b4f-b9c1-0b62e3475799")
+	)
+	(pad "MP" smd rect
+		(at -4.15 1.9)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f6ee3702-aef7-43fa-a913-442786ce2b8c")
+	)
+	(pad "MP" smd rect
+		(at 4.15 1.9)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f11b286-316a-49ba-9edd-1027ee52d9a8")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "6359e65f-9022-450b-a45e-0b8f522b4967")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.3)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -4.95 -1.6) (xy 4.95 -1.6) (xy 4.95 2.95) (xy -4.95 2.95)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

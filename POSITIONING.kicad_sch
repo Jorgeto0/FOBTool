@@ -6556,6 +6556,16 @@
 		)
 		(uuid "b963ab75-3146-4326-993a-7bc77909d625")
 	)
+	(text "External rear NFC antenna assembly—geometry and tuning pending"
+		(exclude_from_sim no)
+		(at 385.572 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d32de8c5-162f-4781-ba46-f29f08832ccd")
+	)
 	(text "UWB TRANSCEIVER, CLOCK, DUAL ANTENNAS AND SPI"
 		(exclude_from_sim no)
 		(at 56.388 16.764 0)
@@ -7379,6 +7389,10 @@
 	(no_connect
 		(at 49.53 172.72)
 		(uuid "4b12ee9a-1b90-4e15-a21b-2700bba87360")
+	)
+	(no_connect
+		(at 400.05 147.32)
+		(uuid "6138a48a-40ca-4a21-976f-93145a66809d")
 	)
 	(no_connect
 		(at 74.93 241.3)
@@ -10202,6 +10216,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 147.32) (xy 389.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ace67d-06aa-4cb9-a92e-df356e089750")
+	)
+	(wire
+		(pts
 			(xy 367.03 88.9) (xy 378.46 88.9)
 		)
 		(stroke
@@ -12632,6 +12656,16 @@
 	)
 	(wire
 		(pts
+			(xy 370.84 144.78) (xy 389.89 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1afd2be-c167-42d7-affd-b3832eadac8c")
+	)
+	(wire
+		(pts
 			(xy 256.54 80.01) (xy 289.56 80.01)
 		)
 		(stroke
@@ -13450,6 +13484,16 @@
 		)
 		(uuid "7fbff768-439d-4793-acd4-7fd76555ce8f")
 	)
+	(label "NFC_ANT_LOOP_N"
+		(at 370.84 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "803b6e01-d810-42a2-aaec-ba600fc1b2b1")
+	)
 	(label "NFC_RX_MATCH_N"
 		(at 383.54 118.11 0)
 		(effects
@@ -13749,6 +13793,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2098436-61ee-4594-a965-164f93b9165b")
+	)
+	(label "NFC_ANT_LOOP_P"
+		(at 370.84 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77e3a02-9e5b-4409-ad04-552d4e2112f1")
 	)
 	(label "LF_B_RETURN"
 		(at 313.69 269.24 180)
@@ -24420,6 +24474,134 @@
 		)
 	)
 	(symbol
+		(lib_id "FOBtool_Custom:JST_PH_2Pin_MP")
+		(at 394.97 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "497b5ddc-ec0b-46bc-a3d5-67327f9a04ff")
+		(property "Reference" "J21"
+			(at 395.478 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "781710002"
+			(at 395.986 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Pico-EZmate_78171-0002_1x02-1MP_P1.20mm_Vertical"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/781710002?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR_LINK" "https://eu.mouser.com/en/ProductDetail/Molex/78171-0002?qs=Gs2o0dzr3RhBbmnwhRVwhg%3D%3D&srsltid=AU7gw4WN5d6vVQCp-ntq4lPJklX13r7iXxG4NABma2jFhMtAI4v6GnZP"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "781710002"
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "External NFC antenna connection. Pin 1=NFC_ANT_LOOP_P; pin 2=NFC_ANT_LOOP_N."
+			(at 394.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b13691f4-ddb2-49fb-ab72-f07ba0234c8b")
+		)
+		(pin "1"
+			(uuid "00b96578-f376-40fb-9089-606616bf5f13")
+		)
+		(pin "MP"
+			(uuid "0b024850-e272-4866-b4df-94e880b190bf")
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/e68072eb-1a73-49dc-9cee-ac0e0ab7a67a"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 189.23 104.14 0)
 		(mirror y)
@@ -33124,8 +33306,8 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c766dbe-d14b-4b3b-b0dc-abe4bf82543f")
@@ -33250,7 +33432,7 @@
 				)
 			)
 		)
-		(property "Notes" "PCB NFC loop; tune on first article."
+		(property "Notes" "- External rear NFC antenna assembly—geometry, ferrite and tuning pending."
 			(at 374.65 124.46 90)
 			(hide yes)
 			(show_name no)

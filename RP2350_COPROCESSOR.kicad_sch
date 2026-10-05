@@ -3233,6 +3233,12 @@
 		(uuid "0e2b027e-727c-4395-834b-bdc65b40b0eb")
 	)
 	(junction
+		(at 270.51 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eaccd66-fb58-48c3-aeec-94faf93bf1e5")
+	)
+	(junction
 		(at 208.28 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3303,6 +3309,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c5bee99-7525-4fe5-8107-eec6ec592a16")
+	)
+	(junction
+		(at 280.67 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c91839a-4bb2-4af4-8244-f9cb4e9ff7b6")
 	)
 	(junction
 		(at 137.16 25.4)
@@ -3697,6 +3709,16 @@
 			(type default)
 		)
 		(uuid "260c9b02-c739-4e9c-b6c9-14182646d7bf")
+	)
+	(wire
+		(pts
+			(xy 280.67 49.53) (xy 280.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b894dc1-fac2-4286-a41b-623a82d2496c")
 	)
 	(wire
 		(pts
@@ -4490,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 59.69) (xy 270.51 62.23)
+			(xy 280.67 59.69) (xy 280.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4527,6 +4549,16 @@
 			(type default)
 		)
 		(uuid "94399149-7baf-4666-a2eb-082f3378619b")
+	)
+	(wire
+		(pts
+			(xy 280.67 59.69) (xy 270.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ed83a5-a252-412c-b9f7-72707c5cc721")
 	)
 	(wire
 		(pts
@@ -4577,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "99801cbc-8523-4c91-935a-37b8e781661e")
+	)
+	(wire
+		(pts
+			(xy 280.67 48.26) (xy 270.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f4e85c-ade3-4f76-a883-896a062e84be")
 	)
 	(wire
 		(pts
@@ -4967,6 +5009,16 @@
 			(type default)
 		)
 		(uuid "dc6315f4-d5a0-4c3f-8862-ba25654fb133")
+	)
+	(wire
+		(pts
+			(xy 280.67 57.15) (xy 280.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7bea97-8d08-480c-adf3-432e7e2e7e22")
 	)
 	(wire
 		(pts
@@ -7104,7 +7156,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 62.23 0)
+		(at 280.67 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7115,7 +7167,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c2adec5-0a36-4b6c-89ad-d6ef0089ed05")
 		(property "Reference" "#PWR046"
-			(at 270.51 68.58 0)
+			(at 280.67 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +7178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 67.31 0)
+			(at 280.67 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7136,7 +7188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 62.23 0)
+			(at 280.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7147,7 +7199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 62.23 0)
+			(at 280.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 62.23 0)
+			(at 280.67 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,6 +9950,186 @@
 			(project "FOBtool_HW"
 				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/27b7c62f-0663-47bb-bbed-fbdc5a64ed05"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 280.67 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73eb046a-e27b-446f-8f67-af3e31529e8a")
+		(property "Reference" "C175"
+			(at 280.924 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 280.924 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 281.6352 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=GRM155R71C104KA88D"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DISTRIBUTOR_LINK" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R71C104KA88D?qs=8YPuuxuUzMJKePo9sU3A2g%3D%3D"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "N/A"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TUNING_ALTERNATIVES" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf4c1572-2098-49c4-b674-5ea3b91024bd")
+		)
+		(pin "1"
+			(uuid "6acb6479-6baa-4ba1-9968-384f5d162381")
+		)
+		(instances
+			(project "FOBtool_HW"
+				(path "/4178b7d0-cf29-4cf2-b214-acbbbd97d338/27b7c62f-0663-47bb-bbed-fbdc5a64ed05"
+					(reference "C175")
 					(unit 1)
 				)
 			)
